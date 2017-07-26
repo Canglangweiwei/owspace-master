@@ -27,15 +27,15 @@ owspace是一款高仿单读的APP，API接口通过非法手段获取。<br>
 
 
 #展示
-![image](http://github.com/Canglangweiwei/owspace-mater/art/show1.png) ![image](http://github.com/Canglangweiwei/owspace-mater/art/show2.png)
+![image](https://github.com/Canglangweiwei/owspace-mater/art/show1.png) ![image](https://github.com/Canglangweiwei/owspace-mater/art/show2.png)
 
-![image](http://github.com/Canglangweiwei/owspace-mater/art/show3.png) ![image](http://github.com/Canglangweiwei/owspace-mater/art/show4.png)
+![image](https://github.com/Canglangweiwei/owspace-mater/art/show3.png) ![image](https://github.com/Canglangweiwei/owspace-mater/art/show4.png)
 
-![image](http://github.com/Canglangweiwei/owspace-mater/art/show5.png) ![image](http://github.com/Canglangweiwei/owspace-mater/art/show6.png)
+![image](https://github.com/Canglangweiwei/owspace-mater/art/show5.png) ![image](https://github.com/Canglangweiwei/owspace-mater/art/show6.png)
 
-![image](http://github.com/Canglangweiwei/owspace-mater/art/show7.png) ![image](http://github.com/Canglangweiwei/owspace-mater/art/show8.png)
+![image](https://github.com/Canglangweiwei/owspace-mater/art/show7.png) ![image](https://github.com/Canglangweiwei/owspace-mater/art/show8.png)
 
-![image](http://github.com/Canglangweiwei/owspace-mater/art/show.gif)
+![image](https://github.com/Canglangweiwei/owspace-mater/art/show.gif)
 
 #TODO LIST
 * sqldelight SqlBrite 缓存
@@ -48,7 +48,7 @@ owspace是一款高仿单读的APP，API接口通过非法手段获取。<br>
 
 #thanks
 ```
-	compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile(name: 'SildeMenulibrary-release', ext: 'aar')
     compile(name: 'ObservableScrollView-release', ext: 'aar')
