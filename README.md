@@ -48,7 +48,7 @@ owspace是一款高仿单读的APP，API接口通过非法手段获取。<br>
 
 #thanks
 ```
-	compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile(name: 'SildeMenulibrary-release', ext: 'aar')
     compile(name: 'ObservableScrollView-release', ext: 'aar')
