@@ -80,7 +80,6 @@ public class CustomPtrHeader extends FrameLayout implements PtrUIHandler {
                                    boolean isUnderTouch,
                                    byte status,
                                    PtrIndicator ptrIndicator) {
-
     }
 
     /**
@@ -110,7 +109,6 @@ public class CustomPtrHeader extends FrameLayout implements PtrUIHandler {
     }
 
     private String getLastUpdateTime() {
-
         if (mLastUpdateTime == -1 && !TextUtils.isEmpty(mLastUpdateTimeKey)) {
             mLastUpdateTime = getContext().getSharedPreferences(KEY_SharedPreferences, 0).getLong(mLastUpdateTimeKey, -1);
         }
@@ -140,7 +138,6 @@ public class CustomPtrHeader extends FrameLayout implements PtrUIHandler {
                 } else {
                     sb.append(hours + "小时前");
                 }
-
             } else {
                 sb.append(minutes + "分钟前");
             }
