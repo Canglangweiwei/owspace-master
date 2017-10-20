@@ -181,7 +181,7 @@ public class ArtActivity extends BaseActivity implements ArticalContract.View {
     @Override
     public void showOnFailure() {
         if (!isRefresh) {
-            //显示失败
+            // 显示失败
             recycleViewAdapter.setError(true);
             recycleViewAdapter.notifyItemChanged(recycleViewAdapter.getItemCount() - 1);
         } else {
